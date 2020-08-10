@@ -370,4 +370,16 @@
        font-size: 40px;
      
      }
+     #myDIV {
+      width: 60%;
+      
+
+  
+    }
    }
+   @media screen and (max-width: 350px) {
+   
+  body{
+    display: none;
+  }
+  }
