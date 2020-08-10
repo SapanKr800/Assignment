@@ -1,6 +1,6 @@
 
     function chatBot() {
-      document.getElementById("myDIV").style.height = "350px ";
+      document.getElementById("myDIV").style.height = "62% ";
       var click = document.getElementById("Hide-chat");
       var show = document.getElementById("show-chat");
 
