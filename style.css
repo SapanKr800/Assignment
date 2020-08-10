@@ -1,0 +1,327 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+
+    }
+
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+
+
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    .container {
+      position: relative;
+      border: 5px solid black;
+      padding-bottom: 50px;
+    }
+
+    .bg {
+
+      background-image: url("Banner.png");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .nav-item {
+      margin-left: 20px;
+      padding: 0px 15px 0px 15px;
+      margin-top: 20px;
+      font-weight: 600;
+      text-align: center;
+      border-radius: 15px;
+      line-height: 30px;
+
+
+    }
+
+    .active {
+      background-color: white;
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .nav-item:hover {
+      background-color: white;
+      color: #0C003A;
+
+
+
+    }
+
+
+    .logo {
+      color: white;
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .nav-list {
+      color: white;
+
+    }
+
+    .nav-list:hover {
+      color: #0C003A;
+      text-decoration: none;
+    }
+
+    .banner-text {
+      width: 20%;
+      margin-left: 15%;
+      margin-top: 5%;
+      top: 100px;
+      font-weight: 700;
+      color: white;
+      font-size: 70px;
+      line-height: 1;
+
+    }
+
+    .button {
+      background: none;
+      border: none;
+    }
+
+    /********* chat portion start from here************/
+
+
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+
+
+    #myDIV {
+      width: 280px;
+      height: 235px;
+      background-color: white;
+      bottom: 18%;
+      right: 6%;
+      position: absolute;
+      padding: 15px;
+      display: none;
+      border-radius: 10px;
+      overflow-y: auto;
+      padding-right: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      animation: fadeIn ease 2s;
+
+    }
+
+
+    #chatbot {
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      height: 55px;
+      width: 55px;
+      cursor: pointer;
+      border-radius: 200px 200px 10px 200px;
+      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+      background-color: #ECF1FB;
+      animation: bounceIn 2s;
+
+    }
+
+    #chatbot img {
+      height: 28px;
+      margin: 16px;
+      animation: fadeIn ease 2s;
+
+
+    }
+
+    .askanything {
+      background-color: #7F8AC5;
+      padding: 15px;
+      font-size: 12px;
+      border-radius: 10px;
+      animation: fadeIn ease 2s;
+
+    }
+
+    .hi-there {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    #hello-ask {
+      margin-top: -5px;
+    }
+
+
+    #mat-icon {
+      display: none;
+      color: #0C003A;
+      padding: 18px;
+      font-size: 20px;
+      animation: fadeIn ease 2s;
+    }
+
+    .start-chat {
+      font-size: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      color: #0C003A;
+
+
+    }
+
+    .start-chat h4 {
+      margin-top: -5px;
+      font-size: 13px;
+
+    }
+
+    .team {
+      margin-top: -5px;
+      font-size: 10px;
+    }
+
+    .inline {
+      width: 150px;
+      height: 30px;
+      background-color: #13A884;
+      color: #ECF1FB;
+      cursor: pointer;
+      font-size: 10px;
+      border-radius: 10px;
+
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 70% 30%;
+
+    }
+
+    .grid-item {
+      padding-left: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+
+    .grid-item i {
+      margin-top: 3px;
+    }
+
+    .chat-show {
+      display: none;
+
+    }
+
+
+    .grid-containers {
+      display: grid;
+      grid-template-columns: 80% 20%;
+      margin-top: 155px;
+
+    }
+
+    .grid-items a {
+      cursor: pointer;
+
+    }
+
+    #fname {
+      border: none;
+      outline: none;
+
+    }
+
+    .reply {
+      color: #7F8AC5;
+    }
+
+    .sends-icon {
+      color: #7F8AC5;
+    }
+
+
+
+
+
+    #content h5 {
+      width: 80%;
+      font-size: 12px;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #ECF1FB;
+      animation: fadeIn ease 5s;
+      margin-bottom: 20px;
+
+    }
+
+    #user-send {
+      font-size: 12px;
+      text-align: left;
+      word-wrap: break-word;
+      margin-left: 30%;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      height: auto;
+      color: #ECF1FB;
+      animation: fadeIn ease 2s;
+      background-color: #0C003A;
+
+    }
+
+    .input-border {
+      border-top: 2px solid#ECF1FB;
+      position: sticky;
+      bottom: 0;
+      padding: 10px;
+
+    }
+  /*********Media**************/
+  @media screen and (max-width: 992px) {
+    .nav-item{
+     margin-left: 5px;
+    }
+    .logo {
+     
+     font-size: 25px;
+     font-weight: 600;
+   }
+   
+   
+   }
+   @media screen and (max-width: 768px) {
+   
+     .banner-text {
+       margin-left: 12%;
+       font-size: 60px;
+     
+     }
+   }
+   @media screen and (max-width: 500px) {
+   
+     .banner-text {
+       
+       font-size: 50px;
+     
+     }
+   }
+   @media screen and (max-width: 375px) {
+   
+     .banner-text {
+       
+       font-size: 40px;
+     
+     }
+   }
